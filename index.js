@@ -32,12 +32,8 @@ MonFood.add("Sushi")
 MonFood.add("Panecake")
 MonFood.add("Eggy")
 MonFood.add("Tempura")
-MonFood.add("Bento")
-MonFood.add("Eggy")
 MonFood.add("Padang")
 MonFood.add("Tteok")
-MonFood.add("Sushi")
-MonFood.add("Sushi")
 
 //favResto Wendy
 let wenFood= new Set()
@@ -48,7 +44,6 @@ wenFood.add("Panecake")
 wenFood.add("Katsu")
 wenFood.add("Padang")
 wenFood.add("Geprek")
-wenFood.add("Panecake")
 wenFood.add("Eggy")
 
 //education Monica
