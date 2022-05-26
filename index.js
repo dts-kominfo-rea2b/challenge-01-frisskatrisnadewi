@@ -13,17 +13,17 @@ let genderMon= genderP.get("Monica")
 let Pet = ["Yes","No"]
 
 //monica's fav color
-let MonCol = new Set()
-MonCol.add("Yellow");
-MonCol.add("Pink");
-MonCol.add("White");
-MonCol.add("Purple");
+// let MonCol = new Set()
+// MonCol.add("Yellow");
+// MonCol.add("Pink");
+// MonCol.add("White");
+// MonCol.add("Purple");
 
-//wendy's fav color
-let WenCol = new Set()
-WenCol.add("Blue");
-WenCol.add("Black");
-WenCol.add("Grey");
+// //wendy's fav color
+// let WenCol = new Set()
+// WenCol.add("Blue");
+// WenCol.add("Black");
+// WenCol.add("Grey");
 
 //favResto Monica
 // let MonFood= new Set()
@@ -97,7 +97,7 @@ const firstUser = {
     gender:genderMon,
     age: "17",
     email: "monica@dingdong.com",
-    favoriteColor: MonCol,
+    favoriteColor: ["Yellow","pink","white","purple"],
     isHavePet: Pet[0],
     education: [monSD,monSMP,monSMA],
     favoriteRestaurant:["Bento", "sushi", "panecake", "eggy", "tempura","padang","tteok"]
@@ -108,7 +108,7 @@ const secondUser = {
     gender:genderWin,
     age: "23",
     email: "wendy@dingdong.com",
-    favoriteColor: WenCol,
+    favoriteColor: ["blue","black","grey"],
     isHavePet: Pet[1],
     education: [wenSD,wenSMP,wenSMA,wenKul],
     favoriteRestaurant:["Tempura","Bento","sushi","padang","katsu","panecake","geprek","eggy"]
