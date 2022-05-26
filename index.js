@@ -26,30 +26,30 @@ WenCol.add("Black");
 WenCol.add("Grey");
 
 //favResto Monica
-let MonFood= new Set()
-MonFood.add("Bento")
-MonFood.add("Sushi")
-MonFood.add("Panecake")
-MonFood.add("Eggy")
-MonFood.add("Tempura")
-MonFood.add("Bento")
-MonFood.add("Eggy")
-MonFood.add("Padang")
-MonFood.add("Tteok")
-MonFood.add("Sushi")
-MonFood.add("Sushi")
+// let MonFood= new Set()
+// MonFood.add("Bento")
+// MonFood.add("Sushi")
+// MonFood.add("Panecake")
+// MonFood.add("Eggy")
+// MonFood.add("Tempura")
+// MonFood.add("Bento")
+// MonFood.add("Eggy")
+// MonFood.add("Padang")
+// MonFood.add("Tteok")
+// MonFood.add("Sushi")
+// MonFood.add("Sushi")
 
 //favResto Wendy
-let wenFood= new Set()
-wenFood.add("Tempura")
-wenFood.add("Bento")
-wenFood.add("Sushi")
-wenFood.add("Panecake")
-wenFood.add("Katsu")
-wenFood.add("Padang")
-wenFood.add("Geprek")
-wenFood.add("Panecake")
-wenFood.add("Eggy")
+// let wenFood= new Set()
+// wenFood.add("Tempura")
+// wenFood.add("Bento")
+// wenFood.add("Sushi")
+// wenFood.add("Panecake")
+// wenFood.add("Katsu")
+// wenFood.add("Padang")
+// wenFood.add("Geprek")
+// wenFood.add("Panecake")
+// wenFood.add("Eggy")
 
 //education Monica
 const monSD= {
@@ -97,10 +97,10 @@ const firstUser = {
     gender:genderMon,
     age: "17",
     email: "monica@dingdong.com",
-    favoriteColorM: MonCol,
+    favoriteColor: MonCol,
     isHavePet: Pet[0],
     education: [monSD,monSMP,monSMA],
-    favoriteRestaurantM:MonFood
+    favoriteRestaurant:["Bento", "sushi", "panecake", "eggy", "tempura","padang","tteok"]
 };
 
 const secondUser = {
@@ -108,10 +108,10 @@ const secondUser = {
     gender:genderWin,
     age: "23",
     email: "wendy@dingdong.com",
-    favoriteColorW: WenCol,
+    favoriteColor: WenCol,
     isHavePet: Pet[1],
     education: [wenSD,wenSMP,wenSMA,wenKul],
-    favoriteRestaurantW:wenFood
+    favoriteRestaurant:["Tempura","Bento","sushi","padang","katsu","panecake","geprek","eggy"]
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
