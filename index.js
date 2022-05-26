@@ -32,8 +32,12 @@ MonFood.add("Sushi")
 MonFood.add("Panecake")
 MonFood.add("Eggy")
 MonFood.add("Tempura")
+MonFood.add("Bento")
+MonFood.add("Eggy")
 MonFood.add("Padang")
 MonFood.add("Tteok")
+MonFood.add("Sushi")
+MonFood.add("Sushi")
 
 //favResto Wendy
 let wenFood= new Set()
@@ -44,6 +48,7 @@ wenFood.add("Panecake")
 wenFood.add("Katsu")
 wenFood.add("Padang")
 wenFood.add("Geprek")
+wenFood.add("Panecake")
 wenFood.add("Eggy")
 
 //education Monica
@@ -92,10 +97,10 @@ const firstUser = {
     gender:genderMon,
     age: "17",
     email: "monica@dingdong.com",
-    favoriteColor: MonCol,
+    favoriteColorM: MonCol,
     isHavePet: Pet[0],
     education: [monSD,monSMP,monSMA],
-    favoriteRestaurant:MonFood
+    favoriteRestaurantM:MonFood
 };
 
 const secondUser = {
@@ -103,10 +108,10 @@ const secondUser = {
     gender:genderWin,
     age: "23",
     email: "wendy@dingdong.com",
-    favoriteColor: WenCol,
+    favoriteColorW: WenCol,
     isHavePet: Pet[1],
     education: [wenSD,wenSMP,wenSMA,wenKul],
-    favoriteRestaurant:wenFood
+    favoriteRestaurantW:wenFood
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
